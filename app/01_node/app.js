@@ -3,5 +3,5 @@
  */
 
 var profile = require("./profile.js");
-var users = process.argv.slice(2);
-users.forEach(profile.get);
+var details = process.argv.slice(2);
+profile.get(details);

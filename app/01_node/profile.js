@@ -6,8 +6,8 @@ var https = require("https");
 var http = require("http");
 
 //Print out messages
-function printMessage(username, badgeCount, points) {
-  var message = "User " + username + " has " + badgeCount + " total badge(s) and " + points + " in JavaScript";
+function printMessage(username, badgeCount, points, topic) {
+  var message = "User " + username + " has " + badgeCount + " total badge(s) and " + points + " in " + topic;
   console.log(message);
 }
 
@@ -16,8 +16,10 @@ function printError(error) {
   console.error(error.message);
 }
 
-function get(username) {
+function get(details) {
   //Connect to the API URL (https://teamtreehouse.com/username.json)
+  var username = details[1];
+  var topic = details[0];
   var request = https.get("https://teamtreehouse.com/" + username + ".json", function(response) {
     var body = "";
     //Read the data
@@ -29,8 +31,13 @@ function get(username) {
         try {
           //Parse the data
           var profile = JSON.parse(body);
+          for (var key in profile.points) {
+            if (key.toLowerCase() === topic.toLowerCase()) {
+              var points = profile.points[key];
+            }
+          }
           //Print the data
-          printMessage(username, profile.badges.length, profile.points.JavaScript);
+          printMessage(username, profile.badges.length, points, topic);
         } catch(error) {
           //Parse error
           printError(error);
