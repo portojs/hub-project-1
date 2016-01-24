@@ -4,8 +4,12 @@
   "description": "A bulletin board developed in React.",
   "main": "Note.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "open http://localhost:4321 & httpster -p 4321"
   },
   "author": "Peter Krevenets",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "httpster": "^1.0.1",
+    "react-tools": "^0.13.3"
+  }
 }
