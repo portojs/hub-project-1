@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="UTF-8">
+    <title>Googly City Search</title>
+  </head>
+  <body>
+
+    <label for="searchTextField">Search here:</label>
+    <input id="searchTextField" type="text" />
+
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQxCRNNLZTaRTna2leTNNeIwOPulopHO4&libraries=places"></script>
+    <script>
+
+      var input = document.getElementById('searchTextField');
+      var options = {
+        types: ['(cities)']
+      };
+
+      autocomplete = new google.maps.places.Autocomplete(input, options);
+    </script>
+  </body>
+</html>
