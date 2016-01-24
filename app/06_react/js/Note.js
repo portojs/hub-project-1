@@ -128,24 +128,35 @@ var Board = React.createClass({
   }
 });
 
-var Box = React.createClass({
+var Box = React.createClass( {
   getDefaultProps: function() {
+    return {
+      colorIndex: -1
+    }
+  },
+  getInitialState: function() {
     return {
       backgroundColor: "blue",
       height: 200,
       width: 200
     }
   },
+  update: function() {
+    this.setProps({colorIndex: this.props.colorIndex + 1});
+  },
+  componentWillReceiveProps: function(nextProps) {
+    var color = this.props.colors.split(',')[nextProps.colorIndex];
+    if(!color) {this.setProps({colorIndex:0})}
+    this.setState({backgroundColor: color});
+  },
   render: function() {
-    return <div><div style={this.props}></div>
-      <section style={this.props}></section>
-    </div>;
+    return <div style={this.state} onClick={this.update}></div>;
   }
 });
 
-React.render(<div>
-    <Board count={10}></Board>
-    <Checkbox></Checkbox>
-    <Box />
-  </div>,
+React.render(<Box colors="Red,DarkMagenta,Salmon,Chartreuse"/>,
+  //<div>
+    //<Board count={10}></Board>
+    //<Checkbox></Checkbox>
+  //</div>,
   document.getElementById('react-container'));
