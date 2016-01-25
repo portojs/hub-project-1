@@ -8,16 +8,31 @@
 
     <label for="searchTextField">Search here:</label>
     <input id="searchTextField" type="text" />
+    <button type="submit">Submit</button>
+    <p id="show-location"></p>
 
+    <!-- jQuery, jQuery.ui -->
+    <link href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+
+    <!-- Google Maps API -->
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQxCRNNLZTaRTna2leTNNeIwOPulopHO4&libraries=places"></script>
     <script>
 
+      var locations = [];
       var input = document.getElementById('searchTextField');
       var options = {
         types: ['(cities)']
       };
 
       autocomplete = new google.maps.places.Autocomplete(input, options);
+
+      $("body").on("click", "button", function() {
+        var location = $(this).closest("body").find("#searchTextField").val();
+        locations.push(location);
+        $("#show-location").html(locations.join(', '));
+      });
     </script>
   </body>
 </html>
