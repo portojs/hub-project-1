@@ -6,23 +6,24 @@
 (function() {
   'use strict';
 
-  var Inner = React.createClass({
+  var bookList = ["The Hobbit", "The Wheel of Time"];
+  var Quiz = React.createClass({
     render: function() {
-      return (<h3>Inner</h3>);
+      return <div>
+        {this.props.books.map(function(book) {
+          return <Book title={book} />
+        })}
+        </div>;
     }
   });
 
-  var Outer = React.createClass({
+  var Book = React.createClass({
     render: function() {
-      return (
-        <div>
-          <p>Outer paragraph</p>
-          <Inner />
-        </div>);
-    }
+      return <div><h4>{this.props.title}</h4></div>;
+        }
   });
 
-  React.render(<Outer />,
+  React.render(<Quiz books={bookList}/>,
     document.getElementById('react-container'));
 
 })();
