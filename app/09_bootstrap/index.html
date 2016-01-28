@@ -47,16 +47,51 @@
   </div>
   <!-- End navbar -->
 
-  <div class="container">
+  <!-- Carousel -->
+  <div id="myCarousel" class="carousel slide jumbotron">
+    <div class="container">
+      <ol class="carousel-indicators">
+        <li class="active" data-target="#myCarousel" data-slide-to="0"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
 
-    <div class="jumbotron">
-      <h1>Self-destructing message app</h1>
-      <p class="lead">Learn how to build this fun little app by signing up for a Treehouse account today! We'll teach you how to build both apps from scratch!</p>
-      <p class="btn-group">
-        <a class="btn btn-success btn-lg" href="#">Download the app</a>
-        <a class="btn btn-default btn-lg" href="#" >Text me the link</a>
-      </p>
+        <div class="item active">
+          <h1>Self-destructing message app</h1>
+          <p class="lead">Learn how to build this fun little app by signing up for a Treehouse account today!</p>
+          <p class="btn-group">
+            <a class="btn btn-success btn-lg" href="#">Download the app</a>
+            <a class="btn btn-default btn-lg" href="#">Text me the link</a>
+          </p>
+        </div>
+        <div class="item">
+          <h1>Learn how to build it for iOS</h1>
+          <p class="lead">We'll teach you how to build it from scratch!</p>
+          <p>
+            <a class="btn btn-success btn-lg" href="#">Get started today!</a>
+          </p>
+        </div>
+        <div class="item">
+          <h1>Learn how to build it for Android</h1>
+          <p class="lead">We'll teach you how to build it from scratch!</p>
+          <p>
+            <a class="btn btn-success btn-lg" href="#">Get started today!</a>
+          </p>
+        </div>
+
+      </div>
     </div>
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="icon-prev"></span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="icon-prev"></span>
+    </a>
+  </div>
+  <!-- End carousel -->
+
+  <div class="container">
     <div class="row">
       <div class="col-sm-4">
         <b class="glyphicon glyphicon-camera"></b>
