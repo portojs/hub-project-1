@@ -62,7 +62,7 @@
           <p class="lead">Learn how to build this fun little app by signing up for a Treehouse account today!</p>
           <p class="btn-group">
             <a class="btn btn-success btn-lg" href="#">Download the app</a>
-            <a class="btn btn-default btn-lg" href="#">Text me the link</a>
+            <a class="btn btn-default btn-lg" data-target="#textModal" data-toggle="modal">Text me the link</a>
           </p>
         </div>
         <div class="item">
@@ -91,6 +91,35 @@
   </div>
   <!-- End carousel -->
 
+  <!-- Modal -->
+  <div class="modal fade" id="textModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">We'll Text You the Link!</h4>
+        </div>
+        <div class="modal-body">
+          <form class="form-inline">
+            <div class="form-group">
+              <label class="sr-only" for="mobilePhone">Mobile Phone</label>
+              <input type="tel" class="form-control" id="mobilePhone" placeholder="Mobile Phone">
+            </div>
+            <div class="form-group">
+              <select class="form-control">
+                <option>iOS</option>
+                <option>Android</option>
+              </select>
+            </div>
+            <button class="btn btn-primary" data-dismiss="modal" type="submit">Send me link</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End modal -->
+
+  <!-- Main content -->
   <div class="container">
     <div class="row">
       <div class="col-sm-4">
@@ -137,6 +166,8 @@
       <p>&copy; 2013 Ribbit - By Treehouse Island, Inc.</p>
     </div>
   </div>
+  <!-- End main content -->
+
   <script src="http://code.jquery.com/jquery.js"></script>
   <script src="js/bootstrap.min.js"></script>
 </body>
