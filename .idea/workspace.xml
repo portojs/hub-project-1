@@ -42,11 +42,10 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/10_gulp/treehouse-gulp-basics/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.730769" vertical-offset="68" max-vertical-offset="561">
-              <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+            <state vertical-scroll-proportion="-13.730769" vertical-offset="102" max-vertical-offset="578">
+              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
               <folding>
-                <marker date="1454066161498" expanded="true" signature="130:721" placeholder="{&quot;name&quot;: &quot;treehouse-gulp-basics&quot;...}" />
-                <marker date="1454066161498" expanded="true" signature="618:719" placeholder="{&quot;gulp&quot;: &quot;^3.9.0&quot;...}" />
+                <marker date="1454066999777" expanded="true" signature="167:751" placeholder="{&quot;name&quot;: &quot;treehouse-gulp-basics&quot;...}" />
               </folding>
             </state>
           </provider>
@@ -55,8 +54,8 @@
       <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/10_gulp/treehouse-gulp-basics/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8780488" vertical-offset="221" max-vertical-offset="1003">
-              <caret line="51" column="3" selection-start-line="51" selection-start-column="3" selection-end-line="51" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.46341464" vertical-offset="374" max-vertical-offset="1105">
+              <caret line="43" column="3" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="3" />
               <folding>
                 <element signature="e#0#42#0" expanded="false" />
               </folding>
@@ -505,12 +504,12 @@
       <option name="number" value="Default" />
       <updated>1453091291399</updated>
       <workItem from="1453091294324" duration="85386000" />
-      <workItem from="1453997606600" duration="10068000" />
+      <workItem from="1453997606600" duration="10804000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95454000" />
+    <option name="totallyTimeSpent" value="96190000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="522" y="1" width="1075" height="858" extended-state="0" />
@@ -866,11 +865,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/10_gulp/treehouse-gulp-basics/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.730769" vertical-offset="68" max-vertical-offset="561">
-          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+        <state vertical-scroll-proportion="-13.730769" vertical-offset="102" max-vertical-offset="578">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
           <folding>
-            <marker date="1454066161498" expanded="true" signature="130:721" placeholder="{&quot;name&quot;: &quot;treehouse-gulp-basics&quot;...}" />
-            <marker date="1454066161498" expanded="true" signature="618:719" placeholder="{&quot;gulp&quot;: &quot;^3.9.0&quot;...}" />
+            <marker date="1454066999777" expanded="true" signature="167:751" placeholder="{&quot;name&quot;: &quot;treehouse-gulp-basics&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -893,8 +891,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/10_gulp/treehouse-gulp-basics/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8780488" vertical-offset="221" max-vertical-offset="1003">
-          <caret line="51" column="3" selection-start-line="51" selection-start-column="3" selection-end-line="51" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.46341464" vertical-offset="374" max-vertical-offset="1105">
+          <caret line="43" column="3" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="3" />
           <folding>
             <element signature="e#0#42#0" expanded="false" />
           </folding>
