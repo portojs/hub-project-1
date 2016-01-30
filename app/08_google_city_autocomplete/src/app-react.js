@@ -160,17 +160,26 @@
   //  }
   //});
 
-  var ControllerComponent = React.createClass({
-    getInitialState: function() {
-      return {
-        init: 'init'
-      };
-    },
+  //var ControlledComponent = React.createClass({
+  //  getInitialState: function() {
+  //    return {
+  //      init: 'init'
+  //    };
+  //  },
+  //  handleChange: function(e) {
+  //    this.setState({init: e.target.value});
+  //  },
+  //  render: function() {
+  //    return <input type="test" value={this.state.init} onChange={this.handleChange} />
+  //  }
+  //});
+
+  var UncontrolledComponent = React.createClass({
     handleChange: function(e) {
-      this.setState({init: e.target.value});
+      console.log(e.target.value);
     },
     render: function() {
-      return <input type="test" value={this.state.init} onChange={this.handleChange} />
+      return <input type="test" defaultValue="init" onChange={this.handleChange} />
     }
   });
 
@@ -181,6 +190,8 @@
   //
   //React.render(<Timer onInterval={function() {console.log('Tick');}} interval={1000} />,
   //  document.body);
-  React.render(<ControllerComponent />, document.body);
+  //React.render(<ControlledComponent />, document.body);
+  React.render(<UncontrolledComponent />, document.body);
+
 
 })();
