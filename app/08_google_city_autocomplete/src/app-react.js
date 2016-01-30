@@ -13,16 +13,27 @@
       node.slideDown();
     }
   };
-  var bookList = ["The Hobbit", "The Wheel of Time"];
+
   var Quiz = React.createClass({
     propTypes: {
-      books: React.PropTypes.array.isRequired
+      data: React.PropTypes.array.isRequired
+    },
+    getInitialState: function() {
+      return this.props.data.selectGame();
     },
     render: function() {
       return <div>
-        {this.props.books.map(function(book) {
-          return <Book title={book} />
-        })}
+          <div className="row">
+            <div className="col-md-4">
+              <img src={this.state.author.imageUrl} className="authorimage col-md-3" />
+            </div>
+            <div className="col-md-7">
+              {this.state.books.map(function(b) {
+                return <Book title={b} />;
+              }, this)}
+            </div>
+            <div className="col-md-1"></div>
+          </div>
         </div>;
     },
     mixins: [Highlight]
@@ -38,7 +49,67 @@
     mixins: [Highlight]
   });
 
-  React.render(<Quiz books={bookList}/>,
-    document.getElementById('react-container'));
+  var data = [
+    {
+      name: 'Mark Twain',
+      imageUrl: '',
+      imageSource: 'Wikimedia Commons',
+      imageAttribution: 'Daniel Ogren',
+      books: ['Tom Sawyer']
+    },
+    {
+      name: 'J.K. Rowling',
+      imageUrl: '',
+      imageSource: 'Wikimedia Commons',
+      imageAttribution: 'Daniel Ogren',
+      books: ['Harry Potter and the Sorcerer\'s Stone']
+    },
+    {
+      name: 'Stephen King',
+      imageUrl: '',
+      imageSource: 'Wikimedia Commons',
+      imageAttribution: 'Pinguino',
+      books: ['The Shining', 'IT']
+    },
+    {
+      name: 'CHarles Dickens',
+      imageUrl: '',
+      imageSource: 'Wikimedia Commons',
+      imageAttribution: 'Daniel Ogren',
+      books: ['David Copperfield', 'The Tale of Two Cities']
+    },
+    {
+      name: 'Joseph Conrad',
+      imageUrl: '',
+      imageSource: 'Wikimedia Commons',
+      imageAttribution: 'Daniel Ogren',
+      books: ['Heart of Darkness']
+    },
+    {
+      name: 'William Shakespeare',
+      imageUrl: '',
+      imageSource: 'Wikimedia Commons',
+      imageAttribution: 'Daniel Ogren',
+      books: ['Hamlet', 'Macbeth', 'Romeo and Juliet']
+    }
+  ];
+
+  data.selectGame = function() {
+    var books = _.shuffle(this.reduce(function (p, c, i) {
+        return p.concat(c.books);
+    }, [])).slice(0,4);
+    var answer = books[_.random(books.length-1)];
+    return {
+      books: books,
+      author: _.find(this, function(author) {
+        return author.books.some(function(title) {
+          return title === answer;
+        });
+      })
+    };
+  };
+
+  React.render(<Quiz data={data}/>,
+    document.getElementById('appaloosa'));
 
 })();

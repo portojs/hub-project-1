@@ -1,0 +1,14 @@
+{
+  "name": "author_quiz",
+  "version": "0.0.1",
+  "description": "author quiz",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Peter Krevenets",
+  "license": "MIT",
+  "devDependencies": {
+    "underscore": "^1.8.3"
+  }
+}

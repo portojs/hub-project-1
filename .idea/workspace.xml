@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f7688e3-f4e5-4070-aa07-eaf9b7f59999" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/08_google_city_autocomplete/thirdparty/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/08_google_city_autocomplete/thirdparty/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/08_google_city_autocomplete/thirdparty/bootstrap-theme.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/08_google_city_autocomplete/thirdparty/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/08_google_city_autocomplete/thirdparty/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/08_google_city_autocomplete/thirdparty/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/08_google_city_autocomplete/thirdparty/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/08_google_city_autocomplete/thirdparty/bootstrap.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/08_google_city_autocomplete/thirdparty/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/08_google_city_autocomplete/thirdparty/bootstrap.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/03_express/express-basics" afterPath="$PROJECT_DIR$/app/03_express/express-basics" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/10_gulp/treehouse-gulp-basics" afterPath="$PROJECT_DIR$/10_gulp/treehouse-gulp-basics" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/08_google_city_autocomplete/build/app-react.js" afterPath="$PROJECT_DIR$/app/08_google_city_autocomplete/build/app-react.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/08_google_city_autocomplete/src/app-react.js" afterPath="$PROJECT_DIR$/app/08_google_city_autocomplete/src/app-react.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/08_google_city_autocomplete/index.html" afterPath="$PROJECT_DIR$/app/08_google_city_autocomplete/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hub-project-1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,44 +44,30 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/10_gulp/treehouse-gulp-basics/index.html">
+        <entry file="file://$PROJECT_DIR$/app/09_bootstrap/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="1207">
-              <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+            <state vertical-scroll-proportion="-20.076923" vertical-offset="2385" max-vertical-offset="3043">
+              <caret line="171" column="22" selection-start-line="171" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/10_gulp/treehouse-gulp-basics/package.json">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/08_google_city_autocomplete/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.730769" vertical-offset="102" max-vertical-offset="578">
-              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-              <folding>
-                <marker date="1454066999777" expanded="true" signature="167:751" placeholder="{&quot;name&quot;: &quot;treehouse-gulp-basics&quot;...}" />
-              </folding>
+            <state vertical-scroll-proportion="0.67173254" vertical-offset="255" max-vertical-offset="986">
+              <caret line="41" column="66" selection-start-line="41" selection-start-column="66" selection-end-line="41" selection-end-column="66" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/10_gulp/treehouse-gulp-basics/gulpfile.js">
+      <file leaf-file-name="app-react.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/08_google_city_autocomplete/src/app-react.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46341464" vertical-offset="374" max-vertical-offset="1105">
-              <caret line="43" column="3" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#42#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/10_gulp/treehouse-gulp-basics/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
-              <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="2006">
+              <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -101,8 +101,6 @@
         <option value="$PROJECT_DIR$/app/08_google_city_autocomplete/app.js" />
         <option value="$PROJECT_DIR$/app/08_google_city_autocomplete/react-app.js" />
         <option value="$PROJECT_DIR$/app/08_google_city_autocomplete/app-react.js" />
-        <option value="$PROJECT_DIR$/app/08_google_city_autocomplete/index.html" />
-        <option value="$PROJECT_DIR$/app/08_google_city_autocomplete/src/app-react.js" />
         <option value="$PROJECT_DIR$/app/03_express/express-basics/src/templates/partials/_head.jade" />
         <option value="$PROJECT_DIR$/app/03_express/express-basics/src/templates/layout.jade" />
         <option value="$PROJECT_DIR$/app/03_express/express-basics/src/templates/post.jade" />
@@ -116,6 +114,8 @@
         <option value="$PROJECT_DIR$/10_gulp/treehouse-gulp-basics/index.html" />
         <option value="$PROJECT_DIR$/10_gulp/treehouse-gulp-basics/js/main.js" />
         <option value="$PROJECT_DIR$/10_gulp/treehouse-gulp-basics/gulpfile.js" />
+        <option value="$PROJECT_DIR$/app/08_google_city_autocomplete/src/app-react.js" />
+        <option value="$PROJECT_DIR$/app/08_google_city_autocomplete/index.html" />
       </list>
     </option>
   </component>
@@ -183,7 +183,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="10_gulp" />
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hub-project-1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hub-project-1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="08_google_city_autocomplete" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -212,12 +230,15 @@
     <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\- middle-country\=progging\hub-project-1\app\08_google_city_autocomplete\thirdparty" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\- middle-country\=progging\hub-project-1\app" />
       <recent name="D:\- middle-country\=progging\hub-project-1\app\08_google_city_autocomplete\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.bootstrapping">
+  <component name="RunManager" selected="JavaScript Debug.googly city lookup">
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -500,16 +521,16 @@
       <option name="number" value="Default" />
       <updated>1453091291399</updated>
       <workItem from="1453091294324" duration="85386000" />
-      <workItem from="1453997606600" duration="10902000" />
+      <workItem from="1453997606600" duration="15842000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96288000" />
+    <option name="totallyTimeSpent" value="101228000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="522" y="1" width="1075" height="858" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -524,7 +545,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25221676" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25221676" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -680,6 +701,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="698">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -758,21 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/08_google_city_autocomplete/src/app-react.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2195122" vertical-offset="0" max-vertical-offset="799">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/08_google_city_autocomplete/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3617021" vertical-offset="0" max-vertical-offset="658">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/03_express/express-basics/src/templates/partials/_head.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.30955994" vertical-offset="0" max-vertical-offset="659">
@@ -835,37 +844,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/09_bootstrap/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5607903" vertical-offset="1348" max-vertical-offset="3043">
-          <caret line="101" column="32" selection-start-line="101" selection-start-column="32" selection-end-line="101" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10_gulp/treehouse-gulp-basics/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="1207">
-          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/10_gulp/treehouse-gulp-basics/scss/application.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15201192" vertical-offset="0" max-vertical-offset="671">
           <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10_gulp/treehouse-gulp-basics/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.730769" vertical-offset="102" max-vertical-offset="578">
-          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-          <folding>
-            <marker date="1454066999777" expanded="true" signature="167:751" placeholder="{&quot;name&quot;: &quot;treehouse-gulp-basics&quot;...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -892,6 +875,62 @@
           <folding>
             <element signature="e#0#42#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10_gulp/treehouse-gulp-basics/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.68405366" vertical-offset="0" max-vertical-offset="671">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10_gulp/treehouse-gulp-basics/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0775076" vertical-offset="0" max-vertical-offset="1207">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/09_bootstrap/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.076923" vertical-offset="2385" max-vertical-offset="3043">
+          <caret line="171" column="22" selection-start-line="171" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/08_google_city_autocomplete/thirdparty/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="40205">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/08_google_city_autocomplete/thirdparty/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="115022">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/08_google_city_autocomplete/src/app-react.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="2006">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/08_google_city_autocomplete/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.67173254" vertical-offset="255" max-vertical-offset="986">
+          <caret line="41" column="66" selection-start-line="41" selection-start-column="66" selection-end-line="41" selection-end-column="66" />
+          <folding />
         </state>
       </provider>
     </entry>
