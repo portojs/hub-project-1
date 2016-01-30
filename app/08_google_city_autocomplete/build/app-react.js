@@ -160,6 +160,20 @@
   //  }
   //});
 
+  var ControllerComponent = React.createClass({displayName: "ControllerComponent",
+    getInitialState: function() {
+      return {
+        init: 'init'
+      };
+    },
+    handleChange: function(e) {
+      this.setState({init: e.target.value});
+    },
+    render: function() {
+      return React.createElement("input", {type: "test", value: this.state.init, onChange: this.handleChange})
+    }
+  });
+
   React.render(React.createElement(Quiz, {data: data}),
     document.getElementById('appaloosa'));
 
@@ -167,5 +181,6 @@
   //
   //React.render(<Timer onInterval={function() {console.log('Tick');}} interval={1000} />,
   //  document.body);
+  React.render(React.createElement(ControllerComponent, null), document.body);
 
 })();
