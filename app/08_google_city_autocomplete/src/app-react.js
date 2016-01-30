@@ -19,7 +19,17 @@
       data: React.PropTypes.array.isRequired
     },
     getInitialState: function() {
-      return this.props.data.selectGame();
+      return _.extend({
+        bgClass: 'neutral',
+        showContinue: false
+      }, this.props.data.selectGame());
+    },
+    handleBookSelected: function(title) {
+      var isCorrect = this.state.checkAnswer(title);
+      this.setState({
+        bgClass: isCorrect ? 'pass' : 'fail',
+        showContinue: isCorrect
+      });
     },
     render: function() {
       return <div>
@@ -29,10 +39,10 @@
             </div>
             <div className="col-md-7">
               {this.state.books.map(function(b) {
-                return <Book title={b} />;
+                return <Book onBookSelected={this.handleBookSelected} title={b} />;
               }, this)}
             </div>
-            <div className="col-md-1"></div>
+            <div className={"col-md-1" + this.state.bgClass}></div>
           </div>
         </div>;
     },
@@ -43,8 +53,13 @@
     propTypes: {
       title: React.PropTypes.string.isRequired
     },
+    handleClick: function() {
+      this.props.onBookSelected(this.props.title);
+    },
     render: function() {
-      return <div><h4>{this.props.title}</h4></div>;
+      return <div onClick={this.handleClick}>
+              <h4>{this.props.title}</h4>
+             </div>;
     },
     mixins: [Highlight]
   });
@@ -105,38 +120,43 @@
         return author.books.some(function(title) {
           return title === answer;
         });
-      })
+      }),
+      checkAnswer: function(title) {
+        return this.author.books.some(function(t) {
+          return t === title;
+        });
+      }
     };
   };
 
-  var Echo = React.createClass({
-    render: function() {
-      return <input type="text" onChange={this.handleChange} />
-    },
-    handleChange: function(e) {
-      console.log(e.target.value);
-    }
-  });
-
-  var Timer = React.createClass({
-    propTypes: {
-      onInterval: React.PropTypes.func.isRequired,
-      interval: React.PropTypes.number.isRequired
-    },
-    render: function() {
-      return <div style={{display: 'none'}}></div>
-    },
-    componentDidMount: function() {
-      setInterval(this.props.onInterval, this.props.interval);
-    }
-  });
+  //var Echo = React.createClass({
+  //  render: function() {
+  //    return <input type="text" onChange={this.handleChange} />
+  //  },
+  //  handleChange: function(e) {
+  //    console.log(e.target.value);
+  //  }
+  //});
+  //
+  //var Timer = React.createClass({
+  //  propTypes: {
+  //    onInterval: React.PropTypes.func.isRequired,
+  //    interval: React.PropTypes.number.isRequired
+  //  },
+  //  render: function() {
+  //    return <div style={{display: 'none'}}></div>
+  //  },
+  //  componentDidMount: function() {
+  //    setInterval(this.props.onInterval, this.props.interval);
+  //  }
+  //});
 
   React.render(<Quiz data={data}/>,
     document.getElementById('appaloosa'));
 
-  React.render(<Echo />, document.body);
-
-  React.render(<Timer onInterval={function() {console.log('Tick');}} interval={1000} />,
-    document.body);
+  //React.render(<Echo />, document.body);
+  //
+  //React.render(<Timer onInterval={function() {console.log('Tick');}} interval={1000} />,
+  //  document.body);
 
 })();
