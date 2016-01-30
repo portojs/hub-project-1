@@ -117,10 +117,26 @@
       console.log(e.target.value);
     }
   });
-  
+
+  var Timer = React.createClass({
+    propTypes: {
+      onInterval: React.PropTypes.func.isRequired,
+      interval: React.PropTypes.number.isRequired
+    },
+    render: function() {
+      return <div style={{display: 'none'}}></div>
+    },
+    componentDidMount: function() {
+      setInterval(this.props.onInterval, this.props.interval);
+    }
+  });
+
   React.render(<Quiz data={data}/>,
     document.getElementById('appaloosa'));
 
   React.render(<Echo />, document.body);
+
+  React.render(<Timer onInterval={function() {console.log('Tick');}} interval={1000} />,
+    document.body);
 
 })();
