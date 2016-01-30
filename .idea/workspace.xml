@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f7688e3-f4e5-4070-aa07-eaf9b7f59999" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/08_google_city_autocomplete/thirdparty/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/08_google_city_autocomplete/thirdparty/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/08_google_city_autocomplete/thirdparty/bootstrap-theme.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/08_google_city_autocomplete/thirdparty/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/08_google_city_autocomplete/thirdparty/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/08_google_city_autocomplete/thirdparty/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/08_google_city_autocomplete/thirdparty/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/08_google_city_autocomplete/thirdparty/bootstrap.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/08_google_city_autocomplete/thirdparty/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/08_google_city_autocomplete/thirdparty/bootstrap.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/03_express/express-basics" afterPath="$PROJECT_DIR$/app/03_express/express-basics" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/10_gulp/treehouse-gulp-basics" afterPath="$PROJECT_DIR$/10_gulp/treehouse-gulp-basics" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/08_google_city_autocomplete/build/app-react.js" afterPath="$PROJECT_DIR$/app/08_google_city_autocomplete/build/app-react.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/08_google_city_autocomplete/src/app-react.js" afterPath="$PROJECT_DIR$/app/08_google_city_autocomplete/src/app-react.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/08_google_city_autocomplete/index.html" afterPath="$PROJECT_DIR$/app/08_google_city_autocomplete/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hub-project-1.iws" />
@@ -53,21 +41,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/08_google_city_autocomplete/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.67173254" vertical-offset="255" max-vertical-offset="986">
+            <state vertical-scroll-proportion="-17.0" vertical-offset="255" max-vertical-offset="986">
               <caret line="41" column="66" selection-start-line="41" selection-start-column="66" selection-end-line="41" selection-end-column="66" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app-react.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app-react.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/08_google_city_autocomplete/src/app-react.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="2006">
-              <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.7804878" vertical-offset="1445" max-vertical-offset="2193">
+              <caret line="119" column="2" selection-start-line="119" selection-start-column="2" selection-end-line="119" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -114,8 +102,8 @@
         <option value="$PROJECT_DIR$/10_gulp/treehouse-gulp-basics/index.html" />
         <option value="$PROJECT_DIR$/10_gulp/treehouse-gulp-basics/js/main.js" />
         <option value="$PROJECT_DIR$/10_gulp/treehouse-gulp-basics/gulpfile.js" />
-        <option value="$PROJECT_DIR$/app/08_google_city_autocomplete/src/app-react.js" />
         <option value="$PROJECT_DIR$/app/08_google_city_autocomplete/index.html" />
+        <option value="$PROJECT_DIR$/app/08_google_city_autocomplete/src/app-react.js" />
       </list>
     </option>
   </component>
@@ -521,12 +509,12 @@
       <option name="number" value="Default" />
       <updated>1453091291399</updated>
       <workItem from="1453091294324" duration="85386000" />
-      <workItem from="1453997606600" duration="15842000" />
+      <workItem from="1453997606600" duration="18428000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101228000" />
+    <option name="totallyTimeSpent" value="103814000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="522" y="1" width="1075" height="858" extended-state="0" />
@@ -918,18 +906,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/08_google_city_autocomplete/src/app-react.js">
+    <entry file="file://$PROJECT_DIR$/app/08_google_city_autocomplete/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="2006">
-          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+        <state vertical-scroll-proportion="-17.0" vertical-offset="255" max-vertical-offset="986">
+          <caret line="41" column="66" selection-start-line="41" selection-start-column="66" selection-end-line="41" selection-end-column="66" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/08_google_city_autocomplete/index.html">
+    <entry file="file://$PROJECT_DIR$/app/08_google_city_autocomplete/src/app-react.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67173254" vertical-offset="255" max-vertical-offset="986">
-          <caret line="41" column="66" selection-start-line="41" selection-start-column="66" selection-end-line="41" selection-end-column="66" />
+        <state vertical-scroll-proportion="0.7804878" vertical-offset="1445" max-vertical-offset="2193">
+          <caret line="119" column="2" selection-start-line="119" selection-start-column="2" selection-end-line="119" selection-end-column="2" />
           <folding />
         </state>
       </provider>

@@ -109,7 +109,18 @@
     };
   };
 
+  var Echo = React.createClass({
+    render: function() {
+      return <input type="text" onChange={this.handleChange} />
+    },
+    handleChange: function(e) {
+      console.log(e.target.value);
+    }
+  });
+  
   React.render(<Quiz data={data}/>,
     document.getElementById('appaloosa'));
+
+  React.render(<Echo />, document.body);
 
 })();
