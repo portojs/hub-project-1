@@ -31,7 +31,7 @@
         showContinue: isCorrect
       });
     },
-    handleContinue: function() {
+    handelContinue: function() {
       this.setState(this.getInitialState());
     },
     render: function() {

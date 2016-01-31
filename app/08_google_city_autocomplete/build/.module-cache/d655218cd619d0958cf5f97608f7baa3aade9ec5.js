@@ -31,7 +31,7 @@
         showContinue: isCorrect
       });
     },
-    handleContinue: function() {
+    handelContinue: function() {
       this.setState(this.getInitialState());
     },
     render: function() {
@@ -174,26 +174,20 @@
   //  }
   //});
 
-  //var UncontrolledComponent = React.createClass({
-  //  handleChange: function(e) {
-  //    console.log(e.target.value);
-  //  },
-  //  render: function() {
-  //    return (<div>
-  //              <input ref="first" type="text" defaultValue="init" onChange={this.handleChange} />
-  //              <input ref="second" type="text" />
-  //              <button onClick={this.handleAdd}>Add</button>
-  //              <input ref="result" type="text" />
-  //            </div>);
-  //  },
-  //  componentDidMount: function() {
-  //    this.refs.first.getDOMNode().value = 20;
-  //  },
-  //  handleAdd: function() {
-  //    this.refs.result.getDOMNode().value = parseFloat(this.refs.first.getDOMNode().value)
-  //    + parseFloat(this.refs.second.getDOMNode().value);
-  //  }
-  //});
+  var UncontrolledComponent = React.createClass({displayName: "UncontrolledComponent",
+    handleChange: function(e) {
+      console.log(e.target.value);
+    },
+    render: function() {
+      return (React.createElement("div", null, 
+                React.createElement("input", {type: "text", defaultValue: "init", onChange: this.handleChange}), 
+                React.createElement("input", {ref: "inp", type: "text"})
+              ));
+    },
+    componentDidMount: function() {
+      this.refs.inp.getDOMNode().value = "set by ref";
+    }
+  });
 
   React.render(React.createElement(Quiz, {data: data}),
     document.getElementById('appaloosa'));
@@ -203,7 +197,7 @@
   //React.render(<Timer onInterval={function() {console.log('Tick');}} interval={1000} />,
   //  document.body);
   //React.render(<ControlledComponent />, document.body);
-  //React.render(<UncontrolledComponent />, document.body);
+  React.render(React.createElement(UncontrolledComponent, null), document.body);
 
 
 })();
