@@ -34,6 +34,9 @@
     handleContinue: function() {
       this.setState(this.getInitialState());
     },
+    handleAddGame: function() {
+      routie('add');
+    },
     render: function() {
       return (<div>
         <div className="row">
@@ -50,9 +53,15 @@
         {this.state.showContinue ? (
           <div className="row">
             <div className="col-md-12">
-              <input onClick={this.handleContinue} type="button" className="btn btn-default">Continue</input>
+              <input onClick={this.handleContinue} type="button" className="btn btn-default" value="Continue" />
             </div>
-          </div>) : <span />}
+          </div>) : <span />
+        }
+        <div className="row">
+          <div className="col-md-12">
+            <input className="btn" onClick={this.handleAddGame} id="addGameButton" type="button" value="Add Game" />
+          </div>
+        </div>
       </div>
       );
     }
@@ -71,6 +80,16 @@
              </div>;
     },
     mixins: [Highlight]
+  });
+
+  var AddGameForm = React.createClass({
+    render: function() {
+      return <div className="row">
+                <div className="col-md-12">
+                  <h1>Add Game</h1>
+                </div>
+             </div>;
+    }
   });
 
   var data = [
@@ -198,6 +217,10 @@
   routie({
     '': function() {
         React.render(<Quiz data={data}/>,
+          document.getElementById('appaloosa'));
+    },
+    'add': function() {
+        React.render(<AddGameForm />,
           document.getElementById('appaloosa'));
     }
   });

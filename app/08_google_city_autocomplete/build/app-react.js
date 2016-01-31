@@ -34,6 +34,9 @@
     handleContinue: function() {
       this.setState(this.getInitialState());
     },
+    handleAddGame: function() {
+      routie('add');
+    },
     render: function() {
       return (React.createElement("div", null, 
         React.createElement("div", {className: "row"}, 
@@ -50,9 +53,15 @@
         this.state.showContinue ? (
           React.createElement("div", {className: "row"}, 
             React.createElement("div", {className: "col-md-12"}, 
-              React.createElement("input", {onClick: this.handleContinue, type: "button", className: "btn btn-default"}, "Continue")
+              React.createElement("input", {onClick: this.handleContinue, type: "button", className: "btn btn-default", value: "Continue"})
             )
-          )) : React.createElement("span", null)
+          )) : React.createElement("span", null), 
+        
+        React.createElement("div", {className: "row"}, 
+          React.createElement("div", {className: "col-md-12"}, 
+            React.createElement("input", {className: "btn", onClick: this.handleAddGame, id: "addGameButton", type: "button", value: "Add Game"})
+          )
+        )
       )
       );
     }
@@ -71,6 +80,16 @@
              );
     },
     mixins: [Highlight]
+  });
+
+  var AddGameForm = React.createClass({displayName: "AddGameForm",
+    render: function() {
+      return React.createElement("div", {className: "row"}, 
+                React.createElement("div", {className: "col-md-12"}, 
+                  React.createElement("h1", null, "Add Game")
+                )
+             );
+    }
   });
 
   var data = [
@@ -195,8 +214,17 @@
   //  }
   //});
 
-  React.render(React.createElement(Quiz, {data: data}),
-    document.getElementById('appaloosa'));
+  routie({
+    '': function() {
+        React.render(React.createElement(Quiz, {data: data}),
+          document.getElementById('appaloosa'));
+    },
+    'add': function() {
+        React.render(React.createElement(AddGameForm, null),
+          document.getElementById('appaloosa'));
+    }
+  });
+
 
   //React.render(<Echo />, document.body);
   //
