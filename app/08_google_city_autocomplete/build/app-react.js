@@ -86,7 +86,25 @@
     render: function() {
       return React.createElement("div", {className: "row"}, 
                 React.createElement("div", {className: "col-md-12"}, 
-                  React.createElement("h1", null, "Add Game")
+                  React.createElement("h1", null, "Add Game"), 
+                  React.createElement("form", {role: "form", onSubmit: this.handleSubmit}, 
+                    React.createElement("div", {className: "form-group"}, 
+                      React.createElement("input", {ref: "imageUrl", type: "text", className: "form-control", placeholder: "Image Url"})
+                    ), 
+                    React.createElement("div", {className: "form-group"}, 
+                      React.createElement("input", {ref: "answer1", type: "text", className: "form-control", placeholder: "Answer 1"})
+                    ), 
+                    React.createElement("div", {className: "form-group"}, 
+                      React.createElement("input", {ref: "answer2", type: "text", className: "form-control", placeholder: "Answer 2"})
+                    ), 
+                    React.createElement("div", {className: "form-group"}, 
+                      React.createElement("input", {ref: "answer3", type: "text", className: "form-control", placeholder: "Answer 3"})
+                    ), 
+                    React.createElement("div", {className: "form-group"}, 
+                      React.createElement("input", {ref: "answer4", type: "text", className: "form-control", placeholder: "Answer 4"})
+                    ), 
+                    React.createElement("button", {type: "submit", className: "btn btn-default"}, "Submit")
+                  )
                 )
              );
     }
