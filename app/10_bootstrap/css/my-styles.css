@@ -37,6 +37,12 @@ strong {
 /* Layout
 ================================= */
 
+.ft {
+  margin-bottom: 72px;
+}
+.ft-copy {
+  padding-top: 32px;
+}
 
 /* Jumbotron
 ================================= */
@@ -82,6 +88,41 @@ strong {
   background: url('../img/main-logo.png') no-repeat;
   background-size: 100%;
 }
+
+.ft-icon {
+  width: 94%;
+  height: 196px;
+  position: relative;
+  background: #8c73b0 url('../img/main-bg.png') no-repeat 270px -180px;
+  background-size: 140%;
+}
+.ft-icon::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 164px;
+  height: 102px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  background: url('../img/feature-icons.png') no-repeat;
+  background-size: 100%;
+}
+.friends::before {
+  background-position: 0 -105px;
+}
+.cloud::before {
+  background-position: 0 -210px;
+}
+.ft-icon.friends {
+  background-position: -500px 0;
+}
+.ft-icon.cloud {
+  background-position: 260px 0;
+}
+
 
 /* Media Queries
 ================================= */
