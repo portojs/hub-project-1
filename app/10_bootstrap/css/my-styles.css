@@ -2,6 +2,16 @@
 /* Typography
 ================================= */
 
+@font-face {
+  font-family: 'icomoon';
+  src:url('../fonts/icomoon.eot');
+  src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/icomoon.woff') format('woff'),
+  url('../fonts/icomoon.ttf') format('truetype'),
+  url('../fonts/icomoon.svg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 h1 {
   font-weight: 200;
   margin-bottom: 30px;
@@ -53,6 +63,20 @@ strong {
   padding: 42px 0;
   margin: 80px 0 132px 0;
 }
+.callout {
+  padding: 35px 0;
+  margin-top: 64px;
+  text-align: center;
+  border: 1px solid #e3e3e3;
+  border-right: none;
+  border-left: none;
+}
+.callout .glyphicon {
+  margin-left: 10px;
+}
+.teacher-desc strong {
+  display: block;
+}
 
 /* Form
 ================================= */
@@ -81,8 +105,8 @@ strong {
   margin-bottom: 70px;
 }
 .device {
-  height: 689px;
   width: 345px;
+  height: 589px;
   background: url('../img/device-hero.png') no-repeat;
 }
 
@@ -100,6 +124,14 @@ strong {
   color: #957bba;
   border-color: #fff;
 }
+.btn:active {
+  box-shadow: none;
+}
+.panel .btn-default:hover {
+  background-color: #ccc;
+  color: #f7f7f7;
+  border-color: #ccc;
+}
 
 /* Logos & Icons
 ================================= */
@@ -114,13 +146,18 @@ strong {
   background: url('../img/main-logo.png') no-repeat;
   background-size: 100%;
 }
-
 .ft-icon {
   width: 94%;
   height: 196px;
   position: relative;
   background: #8c73b0 url('../img/main-bg.png') no-repeat 270px -180px;
   background-size: 140%;
+}
+.ft-icon.friends {
+  background-position: -500px 0;
+}
+.ft-icon.cloud {
+  background-position: 260px 0;
 }
 .ft-icon::before {
   content: '';
@@ -136,19 +173,28 @@ strong {
   background: url('../img/feature-icons.png') no-repeat;
   background-size: 100%;
 }
-.friends::before {
+.friends:before {
   background-position: 0 -105px;
 }
-.cloud::before {
+.cloud:before {
   background-position: 0 -210px;
 }
-.ft-icon.friends {
-  background-position: -500px 0;
+[data-icon]:before {
+  font-family: 'icomoon';
+  content: attr(data-icon);
+  speak: none;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  margin-right: 8px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
-.ft-icon.cloud {
-  background-position: 260px 0;
+.th-logo {
+  width: 155px;
+  margin: -.75em 0 .95em 0;
 }
-
 
 /* Media Queries
 ================================= */
@@ -160,7 +206,13 @@ strong {
     background-position: 10% 10%;
   }
   .ft-copy {
-    padding-top: 20px;
+    padding-top: 12px;
+  }
+  .ft-copy p {
+    width: auto;
+  }
+  .device {
+    margin-top: 28px;
   }
 }
 @media (max-width: 767px) {
@@ -180,5 +232,11 @@ strong {
   }
   .ft {
     margin-bottom: 16px;
+  }
+  hr {
+    margin-bottom: 40px;
+  }
+  .callout {
+    margin-top: 32px;
   }
 }

@@ -1,0 +1,18 @@
+{
+  "name": "11_react_geosuggest",
+  "version": "0.0.1",
+  "description": "geosuggest",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Peter Krevenets",
+  "license": "MIT",
+  "devDependencies": {
+    "react": "^0.14.7",
+    "react-geosuggest": "^1.16.0"
+  },
+  "dependencies": {
+    "requirejs": "^2.1.22"
+  }
+}
