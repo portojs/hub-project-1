@@ -22,8 +22,12 @@
 /* Icons
 ================================ */
 
-/* Media Queries
-================================ */
+[class*="fi-"] {
+  font-size: 3em;
+  text-align: center;
+  color: #2ba6cb;
+  display: block;
+}
 
 @media (max-width: 768px) {
   .orbit-prev,
