@@ -48,7 +48,7 @@
           <p class="lead">Learn how to build this fun little app by signing up for a Treehouse account today.</p>
           <p class="button-group radius">
             <a class="medium button success" href="#">Download the app</a>
-            <a class="medium button hide-for-small">Text me the link</a>
+            <a class="medium button hide-for-small" data-reveal-id="formModal">Text me the link</a>
           </p>
         </div>
         <div>
@@ -86,9 +86,20 @@
     <div class="row">
 
       <hr>
-      <div class="large-6 columns">
+      <div class="large-6 hide-for-small columns">
         <h4>Learn how to make this app</h4>
         <p>We will build on the concepts learned in previous iOS projects to create an app that will allow users to send photo or video messages to other users that will be deleted once viewed.</p>
+
+        <div class="row">
+          <div class="large-6 columns">
+            <img class="th radius" src="img/thumb.jpg">
+          </div>
+          <div class="large-6 columns">
+            <p><em>Get access to these courses for only $24 a month!</em></p>
+            <p><a href="#">Visit Treehouse Now &raquo;</a></p>
+          </div>
+        </div>
+
       </div>
       <div class="large-6 columns">
         <h4>About Treehouse</h4>
@@ -99,12 +110,22 @@
     </div><!-- End Treehouse Content -->
 
     <!-- Page Footer -->
-    <div>
+    <div class="row">
       <hr>
-      <div>
+      <div class="large-4 large-centered columns">
         <p>&copy; 2013 Ribbit - By Treehouse Island, Inc.</p>
       </div>
     </div><!-- End Page Footer -->
+
+    <!-- Form Modal -->
+    <div id="formModal" class="reveal-modal small">
+      <h3>We'll Text You the Link</h3>
+      <a href="#" class="close-reveal-modal">&#215;</a>
+    </div>
+    <!-- End Form Modal -->
+
+    <!-- Video Modal -->
+    <!-- End Video Modal -->
 
     <script>
       document.write('<script src=' +
