@@ -66,7 +66,7 @@
     </div><!-- End Content Slider -->
 
     <!-- Feature Content -->
-    <div class="row">
+    <div id="firstStop" class="row">
 
       <div class="large-4 columns">
         <i class="fi-video"></i>
@@ -90,7 +90,7 @@
     <div class="row">
 
       <hr>
-      <div class="large-6 columns">
+      <div id="secondStop" class="large-6 columns">
         <h4>Learn how to make this app</h4>
         <p>We will build on the concepts learned in previous iOS projects to create an app that will allow users to send photo or video messages to other users that will be deleted once viewed.</p>
 
@@ -108,7 +108,7 @@
         </div>
 
       </div>
-      <div class="large-6 columns">
+      <div id="thirdStop" class="large-6 columns">
         <h4>About Treehouse</h4>
         <p>Treehouse provides an extensive library of step-by-step video courses and training exercises that will give you a wide range of in-demand technology skills that will help you land your next dream job.</p>
         <a href="#" class="medium button success radius">Sign up for Treehouse &raquo;</a>
@@ -146,8 +146,20 @@
         <iframe width="420" height="315" src="http://www.youtube.com/embed/hTf0CgRC1_Q" frameborder="0" allowfullscreen></iframe>
       </div>
       <a href="#" class="close-reveal-modal">&#215;</a>
-    </div>
-    <!-- End Video Modal -->
+    </div><!-- End Video Modal -->
+
+    <!-- Joyride -->
+    <ol class="joyride-list" data-joyride>
+      <li data-id="firstStop" data-text="Go!" data-options="tipLocation: top; tipAnimation: fade; scrollSpeed: 600;">
+        <p>Check out these neat features!</p>
+      </li>
+      <li data-id="secondStop" data-text="Next">
+        <p>Will teach you how to build them...</p>
+      </li>
+      <li data-id="thirdStop" data-button="End">
+        <p>When you sign up for Treehouse!</p>
+      </li>
+    </ol><!-- End Joyride -->
 
     <script>
       document.write('<script src=' +
@@ -157,6 +169,7 @@
     <script src="js/foundation.min.js"></script>
     <script>
       $(document).foundation();
+      $(document).foundation('joyride', 'start');
     </script>
   </body>
 </html>
