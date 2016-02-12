@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f7688e3-f4e5-4070-aa07-eaf9b7f59999" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/14_test_webpack/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12_treehouse_foundation/js/content.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/14_test_webpack/js/content.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12_treehouse_foundation/js/entry.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/14_test_webpack/js/entry.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/14_test_webpack/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/14_test_webpack/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/03_express/express-basics" afterPath="$PROJECT_DIR$/app/03_express/express-basics" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/10_gulp/treehouse-gulp-basics" afterPath="$PROJECT_DIR$/10_gulp/treehouse-gulp-basics" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/12_treehouse_foundation/index.html" afterPath="$PROJECT_DIR$/app/12_treehouse_foundation/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/13_treehouse_foundation_2/index.html" afterPath="$PROJECT_DIR$/app/13_treehouse_foundation_2/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/13_treehouse_foundation_2/css/my-styles.css" afterPath="$PROJECT_DIR$/app/13_treehouse_foundation_2/css/my-styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/14_test_webpack/js/bundle.js" afterPath="$PROJECT_DIR$/app/14_test_webpack/js/bundle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/14_test_webpack/js/entry.js" afterPath="$PROJECT_DIR$/app/14_test_webpack/js/entry.js" />
     </list>
     <ignored path="hub-project-1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,10 +60,22 @@
       <file leaf-file-name="entry.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/14_test_webpack/js/entry.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
-              <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
+              <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
               <folding>
                 <element signature="e#0#42#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bundle.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/14_test_webpack/js/bundle.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7106">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -98,10 +101,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/14_test_webpack/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="694">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
               <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
               <folding />
             </state>
@@ -164,9 +167,9 @@
         <option value="$PROJECT_DIR$/app/12_treehouse_foundation/js/entry.js" />
         <option value="$PROJECT_DIR$/app/14_test_webpack/index.html" />
         <option value="$PROJECT_DIR$/app/14_test_webpack/js/content.js" />
-        <option value="$PROJECT_DIR$/app/14_test_webpack/js/entry.js" />
         <option value="$PROJECT_DIR$/app/14_test_webpack/css/style.css" />
         <option value="$PROJECT_DIR$/app/14_test_webpack/.gitignore" />
+        <option value="$PROJECT_DIR$/app/14_test_webpack/js/entry.js" />
       </list>
     </option>
   </component>
@@ -650,12 +653,12 @@
       <workItem from="1454729861307" duration="4123000" />
       <workItem from="1454740147611" duration="9982000" />
       <workItem from="1454927139819" duration="15339000" />
-      <workItem from="1455123671714" duration="9436000" />
+      <workItem from="1455123671714" duration="9934000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160347000" />
+    <option name="totallyTimeSpent" value="160845000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -720,13 +723,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/03_express/express-basics/src/templates/post.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.68" vertical-offset="0" max-vertical-offset="357">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/03_express/express-basics/src/templates/blog.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.05059524" vertical-offset="0" max-vertical-offset="672">
@@ -1066,26 +1062,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/14_test_webpack/js/content.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
-          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/14_test_webpack/js/entry.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
-          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/14_test_webpack/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
@@ -1107,6 +1083,36 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="694">
           <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/14_test_webpack/js/content.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
+          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/14_test_webpack/js/entry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/14_test_webpack/js/bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7106">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
