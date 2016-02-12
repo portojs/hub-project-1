@@ -1,4 +1,11 @@
 
+/* Global
+================================ */
+
+.rnd {
+  border-radius: 6px;
+}
+
 /* Type
 ================================ */
 
@@ -30,6 +37,14 @@ p {
 	font-weight: 500;
 	color: #777;
 	line-height: 2.4;
+}
+.lead {
+  color: #d5c1f2;
+  margin-bottom: 70px;
+}
+.lead:nth-of-type(2) {
+  font-size: initial;
+  margin-bottom: 20px;
 }
 
 /* Layout
