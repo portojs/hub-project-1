@@ -1,0 +1,76 @@
+
+/* Type
+================================ */
+
+h1,
+h2,
+h3 {
+	font-weight: 500;
+	line-height: 1;
+}
+h2,
+h3 {
+	color: #5f5d60;
+	font-size: 1.25em;
+	margin-bottom: 16px;
+	margin-top: 0;
+}
+h1 {
+	font-size: 63px;
+	font-weight: 200;
+	margin-bottom: 30px;
+	text-shadow: 0 1px rgba(0,0,0,.5);
+}
+p {
+	color: #b3aeb5;
+	line-height: 1.7;
+	font-weight: 200;
+}
+.top-bar p {
+	font-weight: 500;
+	color: #777;
+	line-height: 2.4;
+}
+
+/* Layout
+================================ */
+
+.contain-to-grid {
+	background-color: rgba(47,42,49, 0.9);
+	border-bottom: 1px solid rgba(30,27,31,0.9);
+}
+.top-bar {
+	min-height: 80px;
+	padding-top: 20px;
+	background: transparent;
+	padding-left: 0.9375em;
+	padding-right: 0.9375em;
+}
+
+/* Logos & Icons
+================================= */
+
+.main-logo {
+	display: inline-block;
+	width: 124px;
+	height: 34px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	background: url('../img/main-logo.png') no-repeat;
+	background-size: 100%;
+}
+
+/* Media Queries
+================================= */
+
+@media (max-width: 767px) {
+	.top-bar {
+		min-height: 60px;
+	}
+	.main-logo {
+		width: 82px;
+	}
+}
+
+
