@@ -62,6 +62,20 @@ p {
 	padding-right: 0.9375em;
 }
 
+/* Banner Headline
+================================= */
+
+.headline {
+  background: #a085c6 url('../img/main-bg.png') no-repeat 200% 100%;
+  padding: 200px 0 140px 0;
+  margin-bottom: 70px;
+}
+.device {
+  width: 345px;
+  height: 589px;
+  background: url('../img/device-hero.png') no-repeat;
+}
+
 /* Logos & Icons
 ================================= */
 
