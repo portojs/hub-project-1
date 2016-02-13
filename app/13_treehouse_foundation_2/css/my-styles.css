@@ -116,6 +116,20 @@ p {
 	.main-logo {
 		width: 82px;
 	}
+  .headline {
+    text-align: center;
+    padding-top: 95px;
+    padding-bottom: 15px;
+    margin-bottom: 32px;
+    background-position: 10% 10%;
+  }
+  h1 {
+    font-size: 2.25em;
+  }
+  .headline .lead {
+    font-size: 1em;
+    margin-bottom: 40px;
+  }
 }
 
 
