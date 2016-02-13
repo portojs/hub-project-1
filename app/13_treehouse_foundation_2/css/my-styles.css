@@ -90,6 +90,22 @@ p {
 	background-size: 100%;
 }
 
+/* Buttons
+================================= */
+
+.btn-dl {
+  color: inherit;
+  border: solid 2px;
+  margin-right: 10px;
+  padding: 12px 22px;
+  display: inline-block;
+}
+.btn-dl:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: #957bba;
+}
+
 /* Media Queries
 ================================= */
 
