@@ -150,6 +150,9 @@ strong {
 .cloud:before {
   background-position: 0 -210px;
 }
+[class*="fi-"] {
+  margin-right: 8px;
+}
 
 /* Form
 ================================= */
