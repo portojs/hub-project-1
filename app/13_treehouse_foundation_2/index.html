@@ -5,7 +5,7 @@
 <head>
   <title>Ribbit - A Treehouse Project</title>
   <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="css/normalize.css" >
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/foundation.css">
   <link rel="stylesheet" href="css/foundation-icons.css">
   <link rel="stylesheet" href="css/my-styles.css" >
@@ -14,14 +14,14 @@
 <body>
 
   <!-- Top Bar -->
-  <div class="contain-to-grid fixed"> 
+  <div class="contain-to-grid fixed">
     <nav class="top-bar">
       <a class="main-logo" href="#">Ribbit</a>
       <p class="right hide-for-small">A Treehouse Project</p>
     </nav>
   </div><!-- Top Bar -->
 
-  <!-- Headline -->
+  <!-- Banner -->
   <div class="headline">
     <div class="row">
       <div class="large-6 columns">
@@ -37,7 +37,7 @@
         <div class="device right"></div>
       </div>
     </div>
-  </div><!-- End Headline -->
+  </div><!-- End Banner -->
 
   <!-- Feature Copy -->
   <div class="row ft">
@@ -90,26 +90,48 @@
               </button>
             </form>
           </div>
-
           <div class="large-5 pull-1 columns">
             <p><strong>Or visit an app store to download the app now!</strong></p>
             <a class="btn-dl rnd" href="#"><i class="fi-social-apple"></i>iOS</a>
             <a class="btn-dl rnd" href="#"><i class="fi-social-android"></i>Android</a>
           </div>
-
         </div>
       </div>
     </div>
   </div> <!-- End Form Panel -->
 
+  <!-- Treehouse Content -->
+  <div>
+    <hr>
+    <div>
+      <h3>Learn how to make this app for yourself</h3>
+      <p>
+        We will build on the concepts learned in previous iOS projects to create an app that will allow users to send photo or video messages to other users that will be deleted once viewed.
+      </p>
+
+    </div>
+
+    <div>
+      <img src="img/th-logo.png" alt="logo">
+      <p>
+        Treehouse provides an extensive library of step-by-step video courses and training exercises that will give you a wide range of in-demand technology skills that will help you land your next dream job.
+      </p>
+
+    </div>
+  </div><!-- End Treehouse Content -->
+
+  <!-- Video Modal -->
+
+  <!-- End Video Modal -->
+
   <script>
-  document.write('<script src=' +
-  ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
-  '.js><\/script>')
+    document.write('<script src=' +
+    ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
+    '.js><\/script>')
   </script>
   <script src="js/foundation.min.js"></script>
   <script>
-  $(document).foundation();
+    $(document).foundation();
   </script>
 </body>
 </html>
