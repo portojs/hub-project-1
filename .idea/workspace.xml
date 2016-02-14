@@ -5,7 +5,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/03_express/express-basics" afterPath="$PROJECT_DIR$/app/03_express/express-basics" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/10_gulp/treehouse-gulp-basics" afterPath="$PROJECT_DIR$/10_gulp/treehouse-gulp-basics" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/13_treehouse_foundation_2/index.html" afterPath="$PROJECT_DIR$/app/13_treehouse_foundation_2/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/13_treehouse_foundation_2/css/my-styles.css" afterPath="$PROJECT_DIR$/app/13_treehouse_foundation_2/css/my-styles.css" />
     </list>
     <ignored path="hub-project-1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,20 +30,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/13_treehouse_foundation_2/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.576923" vertical-offset="1402" max-vertical-offset="2431">
-              <caret line="117" column="10" selection-start-line="117" selection-start-column="10" selection-end-line="117" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.57709926" vertical-offset="1560" max-vertical-offset="2567">
+              <caret line="114" column="35" selection-start-line="114" selection-start-column="35" selection-end-line="114" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="my-styles.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="my-styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/13_treehouse_foundation_2/css/my-styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9510086" vertical-offset="3420" max-vertical-offset="4182">
+            <state vertical-scroll-proportion="0.0" vertical-offset="3420" max-vertical-offset="4182">
               <caret line="240" column="2" selection-start-line="240" selection-start-column="2" selection-end-line="240" selection-end-column="2" />
               <folding />
             </state>
@@ -108,8 +107,8 @@
         <option value="$PROJECT_DIR$/app/14_test_webpack/.gitignore" />
         <option value="$PROJECT_DIR$/app/14_test_webpack/js/entry.js" />
         <option value="$PROJECT_DIR$/app/14_test_webpack/js/webpack.config.js" />
-        <option value="$PROJECT_DIR$/app/13_treehouse_foundation_2/index.html" />
         <option value="$PROJECT_DIR$/app/13_treehouse_foundation_2/css/my-styles.css" />
+        <option value="$PROJECT_DIR$/app/13_treehouse_foundation_2/index.html" />
       </list>
     </option>
   </component>
@@ -590,12 +589,12 @@
       <workItem from="1454729861307" duration="4123000" />
       <workItem from="1454740147611" duration="9982000" />
       <workItem from="1454927139819" duration="15339000" />
-      <workItem from="1455123671714" duration="14693000" />
+      <workItem from="1455123671714" duration="15001000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165604000" />
+    <option name="totallyTimeSpent" value="165912000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -1036,18 +1035,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/13_treehouse_foundation_2/index.html">
+    <entry file="file://$PROJECT_DIR$/app/13_treehouse_foundation_2/css/my-styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.576923" vertical-offset="1402" max-vertical-offset="2431">
-          <caret line="117" column="10" selection-start-line="117" selection-start-column="10" selection-end-line="117" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="3420" max-vertical-offset="4182">
+          <caret line="240" column="2" selection-start-line="240" selection-start-column="2" selection-end-line="240" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/13_treehouse_foundation_2/css/my-styles.css">
+    <entry file="file://$PROJECT_DIR$/app/13_treehouse_foundation_2/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9510086" vertical-offset="3420" max-vertical-offset="4182">
-          <caret line="240" column="2" selection-start-line="240" selection-start-column="2" selection-end-line="240" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.57709926" vertical-offset="1560" max-vertical-offset="2567">
+          <caret line="114" column="35" selection-start-line="114" selection-start-column="35" selection-end-line="114" selection-end-column="35" />
           <folding />
         </state>
       </provider>
